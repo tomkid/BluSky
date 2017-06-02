@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		374BDCD91EE13DEB00903F58 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 374BDCD81EE13DEB00903F58 /* photo.jpg */; };
 		3759F2461EDFAD9B0023F254 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3759F2451EDFAD9B0023F254 /* main.m */; };
 		3759F2491EDFAD9B0023F254 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3759F2481EDFAD9B0023F254 /* AppDelegate.m */; };
 		3759F24C1EDFAD9B0023F254 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3759F24B1EDFAD9B0023F254 /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		374BDCD81EE13DEB00903F58 /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
 		3759F2411EDFAD9B0023F254 /* openReward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openReward.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3759F2451EDFAD9B0023F254 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3759F2471EDFAD9B0023F254 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		3759F2431EDFAD9B0023F254 /* openReward */ = {
 			isa = PBXGroup;
 			children = (
+				374BDCD81EE13DEB00903F58 /* photo.jpg */,
 				3759F2471EDFAD9B0023F254 /* AppDelegate.h */,
 				3759F2481EDFAD9B0023F254 /* AppDelegate.m */,
 				3759F24A1EDFAD9B0023F254 /* ViewController.h */,
@@ -207,7 +210,7 @@
 				TargetAttributes = {
 					3759F2401EDFAD9B0023F254 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = GA5X6STDYJ;
+						DevelopmentTeam = 749TYU8658;
 						ProvisioningStyle = Automatic;
 					};
 					3759F2591EDFAD9B0023F254 = {
@@ -251,6 +254,7 @@
 			files = (
 				3759F2541EDFAD9B0023F254 /* LaunchScreen.storyboard in Resources */,
 				3759F2511EDFAD9B0023F254 /* Assets.xcassets in Resources */,
+				374BDCD91EE13DEB00903F58 /* photo.jpg in Resources */,
 				3759F24F1EDFAD9B0023F254 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,10 +433,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GA5X6STDYJ;
+				DEVELOPMENT_TEAM = 749TYU8658;
 				INFOPLIST_FILE = openReward/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ranbb.testNav.openReward;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranbb.v2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -441,10 +445,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GA5X6STDYJ;
+				DEVELOPMENT_TEAM = 749TYU8658;
 				INFOPLIST_FILE = openReward/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ranbb.testNav.openReward;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranbb.v2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -518,6 +522,7 @@
 				3759F2701EDFAD9B0023F254 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3759F2711EDFAD9B0023F254 /* Build configuration list for PBXNativeTarget "openRewardTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				3759F2731EDFAD9B0023F254 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3759F2741EDFAD9B0023F254 /* Build configuration list for PBXNativeTarget "openRewardUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				3759F2761EDFAD9B0023F254 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
